@@ -1,6 +1,6 @@
 
 
-![preview](/images/agua-128.png)
+![preview](/images/preview.png)
 
 
 # AQUA METER
@@ -8,6 +8,14 @@
 O AQUA METER trata-se de uma aplicação do tipo PWA para monitorar seu consumo diário de água. 
 
 Segundo o site [tecnoblog](https://tecnoblog.net/responde/o-que-e-pwa-progressive-web-app/), PWA ou Progressive Web App significa um aplicativo de web progressivo. É um aplicativo desenvolvido a partir de tecnologias da web que todos nós conhecemos e gostamos, como HTML, CSS e JavaScript, mas com a sensação e funcionalidade que fica bem próxima de um aplicativo nativo de fato. O projeto foi desenvolvido durante a disciplina de Dispositivos Móveis.
+
+## Funcionalidades 
+
+- É possível registrar o consumo de água 
+- Os registros são mostrados com a data e a hora que foram feitas, juntamente com a quantidade de água consumida
+- A aplicação também contém com um dashboard que mostra o progresso diário de consumo do usuário
+- Na tela inicial, são mostrados apenas os registros feitos naquele dia. Para vizualisar todos os registros feitos, basta acessar a aba histórico.
+- Também é possível realizar a configuração do app. O usuário poderá definir uma meta diária de consumo e se esse consumo será reprensentado em litros(L) ou mililitros(ml) 
 
 ## Stack utilizada
 
@@ -50,6 +58,8 @@ O complemento *-c-1* fará que o cache do navegador seja desabilitado ao iniciar
 
 Pronto, o app deverá ser aberto automaticamente em seu navegador. Caso não aconteça, no seu terminal aparecerá o ip local em que o servidor foi criado, basta digitar este ip na barra de pesquisa do navegador.
 
+
+É possível fazer download da aplicação em seu computador. Ao acessar a aplicação, uma mensagem irá aparecer perguntando se você deseja baixar o app. Caso não aconteça, próximo a barra de pesquisa deverá ter um ícone de dowload. 
 
 ## Feedback
 
